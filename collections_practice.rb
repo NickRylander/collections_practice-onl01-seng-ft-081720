@@ -27,5 +27,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.insert(2, "$")
+  array.map { |word| word.gsub('12', '') }
 end
