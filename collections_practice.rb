@@ -27,4 +27,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.instert("")
+  array.instert(2, "$")
+end
