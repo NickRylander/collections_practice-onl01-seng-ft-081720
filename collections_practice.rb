@@ -16,11 +16,11 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(array)
-  array.sort do |num|
+def swap_elements(switch)
+  switch.sort do |num|
     num[1], num[2] == num[2], num[1]
   end
-  array
+  switch
 end
 
 def reverse_array(array)
