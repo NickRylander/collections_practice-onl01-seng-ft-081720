@@ -18,7 +18,7 @@ end
 
 def swap_elements(switch)
   switch.sort do |num|
-    num[1], num[2] == num[2], num[1]
+    num[1], num[2] = num[2], num[1]
   end
   switch
 end
