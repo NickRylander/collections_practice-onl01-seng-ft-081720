@@ -43,7 +43,7 @@ def add_s(array)
     if add == [1]
       add
     else
-      word + "s"
+      add + "s"
     end
   end
 end
