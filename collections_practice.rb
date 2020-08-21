@@ -16,8 +16,8 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(switch)
-  switch.sort do |second, third|
+def swap_elements(array)
+  array.sort do |second, third|
     second[1] <=> third[2]
   end
 end
@@ -27,3 +27,4 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  array
