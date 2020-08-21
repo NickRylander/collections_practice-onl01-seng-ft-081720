@@ -27,5 +27,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map { |money| money.gsub([2], '$') }
+  array.each{ |s| s[3] = "$" }
 end
