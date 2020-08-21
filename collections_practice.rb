@@ -39,5 +39,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each {|x| x.push = "s"}
+  array.each {|x| x[-1] = "s"}
 end
