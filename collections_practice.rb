@@ -18,7 +18,7 @@ end
 
 def swap_elements(switch)
   switch.sort do |second, third|
-    second > third
+    second[1] <=> third[2]
   end
 end
 
