@@ -17,10 +17,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(switch)
-  switch.sort do |num|
-    num[1] > num[2]
+  switch.sort do |second, third|
+    second > third
   end
-  switch
 end
 
 def reverse_array(array)
